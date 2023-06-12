@@ -302,14 +302,14 @@ class FileAbstraction:
         return hashed_file_key
 
 # if __name__ == '__main__':
-# absolute_file_path = r'C:\Users\Edwin\Downloads\Picture1.png'
+# absolute_file_path = r'C:\Users\\Downloads\Picture1.png'
 # Node_File = FileAbstraction(absolute_file_path, True)
 
 # Attempt To Add Duplicate File
 # Node_File.fa_read_write_file(absolute_file_path)
 
 # Add Different File
-# absolute_file_path1 = r'C:\Users\Edwin\Downloads\1-Research and innovation.pdf'
+# absolute_file_path1 = r'C:\Users\\Downloads\1-Research and innovation.pdf'
 # Node_File.fa_read_write_file(absolute_file_path1)
 
 # get_file_bytes
